@@ -10,62 +10,76 @@
 <body>
     
     <div id="one">
-        <header>
+        <header class="nav">
             <!-- <img>  LOGO IMAGE-->
             <p class="logo">Header Logo</p>
-            <a class="nav-links">Link 1</a>
-            <a class="nav-links">Link 2</a>
-            <a class="nav-links">Link 3</a>
+            <ul id="nav-list">
+                <li><a class="nav-links">Link 1</a></li>
+                <li><a class="nav-links">Link 2</a></li>
+                <li><a class="nav-links">Link 3</a></li>
+            </ul>
         </header>
-        <div id="one-description">
-            <p>This Website is the first step of many more!!!</p>
-            <p>This is actually not my first Website but it is the first site I've made in some time
+        <div id="one-description-wrapper">
+          <div id="one-description">
+              <p id="main-text">This Website is the first step of many more!!!</p>
+              <p id="main-body">This is actually not my first Website but it is the first site I've made in some time
                 and while using git and github together. I've learned so much to make my life better 
                 and I don't 
                 plan to stop!
-            </p>
-            <button>I'm a button!</button>
-        </div>
-        <div class="image-proxy">
-            <!-- <img> some kind of image -->
-            <p>Image Proxy</p>
+                </p>
+                <button id="button-one">I'm a button!</button>
+          </div>
+           <div class="image-proxy">
+              <!-- <img> some kind of image -->
+              <p>Image Proxy</p>
+            </div>
         </div>
     </div>
     <div id="two">
-        <div>
-            <h3>This is content for section Two</h3>
+        <div id="two-head-wrapper">
+            <h3 id="two-head">This is content for section Two</h3>
         </div>
-        <div>
-            <ul>
+        <div id="two-body-wrapper">
+            <ul id="two-body">
                 <li>
-                    <img>
-                    <p>Two</p>
+                    <!-- <img> -->
+                    <p class="two-body-item"></p>
+                    <p class="two-body-description">This is a placeholder for a future image or text item or something</p>
                 </li>
                 <li>
-                    <img>
-                    <p>Two</p>
+                    <!-- <img> -->
+                    <p class="two-body-item"></p>
+                    <p class="two-body-description">This is a placeholder for a future image or text item or something</p>
                 </li>
                 <li>
-                    <img>
-                    <p>Two</p>
+                    <!-- <img> -->
+                    <p class="two-body-item"></p>
+                    <p class="two-body-description">This is a placeholder for a future image or text item or something</p>
                 </li>
                 <li>
-                    <img>
-                    <p>Two</p>
+                    <!-- <img> -->
+                    <p class="two-body-item"></p>
+                    <p class="two-body-description">This is a placeholder for a future image or text item or something</p>
                 </li>
             </ul>
         </div>
     </div>
     <div id="three">
-        <div>
-            <p>Three</p>
-            <p>Three</p>
+        <div id="three-message-wrapper">
+            <p id="three-message">This entire site was made using HTML and CSS skills I learned via TheOdinProject.com. 
+                This website will only continue to grow and be refined so I can continue to showcase my skills.</p>
+            <p id="three-signature">-Creator of the website!</p>
         </div>
     </div>
     <div id="four">
-        <div>
-            <p>Four</p>
-            <button>Button on Four</button>
+        <div id="four-body-wrapper">
+            <div id="four-body-message-wrapper">
+                <p id="four-body-call">Call to action! It's time!</p>
+                 <p id="four-body-message">This is the bottom of the website and will likely have something
+                   better written here in the future!
+                </p>
+            </div>
+            <button id="four-button">Sign up!</button>
         </div>
     </div>
     <footer>

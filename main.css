@@ -1,34 +1,195 @@
- header,button,div,p,h3, h2,a,ul,li{
+ header,button,div,p,h3, h2,a,ul,li, #one,#two,#three,#four{
 display:flex;
+font-family: Roboto, 'Times New Roman', Times, serif;
 }
+button{
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-radius: 10px;
+}
+ul{
+    margin: 0%;
+    padding:0%;
+}
+/*one*/
 #one{
     background-color: #1F2937;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    gap:30px;
 }
 .logo{
-    font-size: 48px;
+    font-size: 24px;
     font-weight: extra-bold;
     color: #F9FAF8;
+}
+
+.nav{
+    justify-content: space-between;
+    width:75%;
 }
 .nav-links{
     font-size: 18px;
     color:#E5E7EB
 }
-#one-description > p{
-font-size: 24px;
-color:#F9FAF8
+#nav-list{
+    gap:20px;
 }
-button{
-    background-color: #3882f6;
-    color:#E5E7EB;
+#nav-list > li{
+    flex-wrap:wrap;
+    align-content: center;
+}
+#one-description{
+font-size: 18px;
+color:#F9FAF8;
+flex-direction: column;
+width:50%;
+gap:15px;
+
+}
+#one-description-wrapper{
+    margin-bottom:30px;
+    width:75%;
+    gap: 30px;
+}
+#main-text{
+    font-size: 48px;
+    margin:0px;
+   
+}
+#main-body{
+    margin:0px;
+   
+}
+.image-proxy{
+width:50%;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+font-size: 18px;
+background-color: lightgrey;
+}
+.image-proxy >p{
+    height: 30px;
+}
+#button-one{
+    width:fit-content;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+/*two  */
+#two{
+    flex-direction: column;
+    align-content:center;
+    flex-wrap:wrap;
+}
+#two-head{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    align-self:center;
+}
+#two-head-wrapper{
+    align-self:center;
+}
+#two-body{
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+#two-body >li{
+    flex-direction: column;
+    width:110px;
+}
+#two-body-wrapper{
+    width:75%;
+    justify-content: center;
+}
+.two-body-item{
+    width: 100px;
+    height: 100px;
+    border:2px solid #3882f6;
+    border-radius: 10px;
+}
+.two-body-description{
+justify-self:center;
 }
 
 
+/*three  */
+#three{
+    background-color: #E5E7EB;
+    justify-content: center;
+    /*increase height maybe?*/
+}
+#three-message-wrapper{
+    align-content: center;
+    width:50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#three-message{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 100%;
+    align-self: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
 
+}
+#three-signature{
+    font-size: 18px;
+align-self:flex-end;
+font-weight: bold;
+padding-right:10px;
+}
 
+/*four  */
+#four{
+   justify-content: center;
+   align-content: center;
+   width:100%;
+   height:400px;
+}
+#four-body-wrapper{
+    background-color:  #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+   align-self: center;
+   height:25%;
+   width:75%;
+}
+#four-body-message-wrapper{
+    flex-direction: column;
+    color:#F9FAF8;
+    width:75%;
+    align-self:center;
+}
+#four-body-call{
+ margin-bottom:0;
+ font-size: 20px;
+ font-weight: bold;
 
+}
+#four-body-message{
+margin-top:10px;
+}
+#four-button{
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius:5px;
+    width: 110px;
+    height:50px;
+    font-weight: bold;
+    font-size: 20px;
+align-self:center;
+align-content: center;
+justify-content:center;
+flex-wrap: wrap;
 
-
-
-
-
-
+}
